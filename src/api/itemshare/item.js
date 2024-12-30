@@ -1,7 +1,7 @@
 import request from '@/utils/request'
 
-// 查询物品管理列表
-export function listItem(query) {
+// 查询物品管理
+ export function listItem(query) {
   return request({
     url: '/itemshare/item/list',
     method: 'get',
